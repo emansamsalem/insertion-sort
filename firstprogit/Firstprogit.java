@@ -38,8 +38,10 @@ public class Firstprogit {
         for(int j=1 ;j <10 ;j++){
             int key = num[j];
             int i= j-1 ;
-            
-            
+          while (i>=0 && num[i]>key){
+num[i+1]=num[i];
+i=i-1;}
+num[i+1]=key;
         }    
     
     } 
