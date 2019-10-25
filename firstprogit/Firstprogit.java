@@ -27,10 +27,20 @@ public class Firstprogit {
         }
         for(int i=0 ; i<10;i++){
             System.out.println(num[i]);
+            
+        }
+            InsertionSort(num);
               
-    }
+    
         
     }
+    public static void InsertionSort(int[]num){
+        for(int j=1 ;j <10 ;j++){
+            int key = num[j];
+            int i= j-1 ;
+            
+            
+        }    
     
-    
+    } 
 }
